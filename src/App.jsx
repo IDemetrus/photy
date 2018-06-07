@@ -18,7 +18,6 @@ class App extends Component {
         <p className="App-intro">
           Welcome, {this.props.name}!
           <button className='App-btn' ref={btn}
-            
             onClick={this.props.loginR}>
             Sign in
           </button>
