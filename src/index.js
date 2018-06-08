@@ -10,7 +10,7 @@ const userState = { name: 'Anonymous'} // init state (for user in this case)
 const reducer = (state = userState, action) => {
     if(action.type === 'LOGIN_SUCCES'){
         console.log(action.payload)
-        return state = { name: 'Success' }
+        return state = { name: action.payload }
     }else{
         return state
     }
