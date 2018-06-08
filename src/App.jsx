@@ -17,6 +17,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           Welcome, {this.props.name}!
+          Albums
           <button className='App-btn' ref={btn}
             onClick={this.props.loginR}>
             Sign in
