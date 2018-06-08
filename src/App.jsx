@@ -49,7 +49,7 @@ const mapDispatchToProps = (dispatch) => {
             type: 'LOGIN_SUCCES',
             payload: username
           })
-  
+          colsole.log('clicked Login')
         } else {
           dispatch({
             type: 'LOGIN_FAIL',
